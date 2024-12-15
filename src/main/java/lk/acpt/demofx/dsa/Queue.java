@@ -10,11 +10,9 @@ public class Queue {
             top=node;
         }else{
             Node temp = top;
-
             while(temp.next!=null){
                 temp=temp.next;
             }
-
             temp.next = node;
         }
     }
